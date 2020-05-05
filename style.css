@@ -152,6 +152,15 @@ position: absolute;
     width: 80px;
     height: 5px;
 }
+ #about:hover,#saylaniServices:hover{
+    z-index: 10000;
+    position: relative;
+}
+#donation,#contact{
+    position: relative;
+    z-index: 0;
+}
+
 #block2 ul ul li{
     width: 170px;
     height: 30px;
@@ -599,7 +608,6 @@ position: absolute;
     width: 87%;
     min-height: 250px;
     background:transparent;
-    border: 5px black;
     /*add flexbox style*/
     display: flex;
     flex-direction: row;
@@ -613,9 +621,8 @@ position: absolute;
     box-sizing: border-box;
     align-items:center;
     text-align: center;
-    border: 1px solid black;
     justify-content: center;
-    border: 1px solid blue;
+    border: 1px solid aliceblue;
     box-shadow: 4px 4px grey;
 }
 .container6{
@@ -702,8 +709,6 @@ position: absolute;
     animation-name: fade;
     animation-duration: 3s;             
     animation-fill-mode: forwards; 
-   }
-
 }
 .box7{
     width: fit-content;
@@ -1064,8 +1069,9 @@ position: absolute;
     .container7inside{
         margin-left: 0px;
     }
-    
-
+    #boxxontaintext2{
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width:600px) {
     .container5{
